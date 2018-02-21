@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
    int a = 23, b = 47;
    int t;
@@ -9,5 +9,5 @@ int main()
    a = b;
    b = t;
    printf("After.a: %d, b: %d\n", a, b);
-   return 0;
+   getch();
 }
