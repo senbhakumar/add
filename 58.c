@@ -1,17 +1,13 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-int a,b;
-printf("enter the value of a,b");
-scanf("%d%d".&a,&b);
-}
-void swap(int a,int b)
-{
-int a,b,temp;
-printf("bfr swaping");
-temp=a;
-a=b;
-b=temp;
-printf("aftr swap %d%d,a.b);
-getch();
+   int a = 23, b = 47;
+   int t;
+   printf("Before. a: %d, b: %d\n", a, b);
+   scanf("%d%d",&a,&b);
+   t = a;
+   a = b;
+   b = t;
+   printf("After.a: %d, b: %d\n", a, b);
+   return 0;
 }
