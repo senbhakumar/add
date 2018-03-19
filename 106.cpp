@@ -1,9 +1,10 @@
 #include<iostream.h>
-int main()
+#include<conio.h>
+void main()
 {
-int n;
+int n,c;
 cout<<"enter the number";
 cin>>n;
-cout<<"print the alphabet"<<c<<n+64;
-return 0;
+cout<<"the character is b";
+getch();
 }
